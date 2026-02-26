@@ -15,7 +15,7 @@ export default function UploadPage() {
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
-  const onDrop = useCallback(async (accepted: File[], rejected: FileRejection[]) => {
+  const onDrop = useCallback((accepted: File[], rejected: FileRejection[]) => {
     setError(null);
     if (rejected.length > 0) {
       setError(rejected[0].errors[0].message);
@@ -24,13 +24,14 @@ export default function UploadPage() {
     if (!accepted[0]) return;
 
     setUploading(true);
-    try {
-      const result = await uploadContract(accepted[0]);
-      router.push(`/contracts/${result.contract_id}`);
-    } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : "Upload failed");
-      setUploading(false);
-    }
+    uploadContract(accepted[0])
+      .then((result) => {
+        router.push(`/contracts/${result.contract_id}`);
+      })
+      .catch((e: unknown) => {
+        setError(e instanceof Error ? e.message : "Upload failed");
+        setUploading(false);
+      });
   }, [router]);
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({

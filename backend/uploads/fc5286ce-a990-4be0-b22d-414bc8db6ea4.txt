@@ -1,0 +1,54 @@
+SERVICE ORDER FORM & TERMS
+Ref: SO-2025-0847
+
+Vendor: Apex Data Solutions ("Provider")
+Customer: BlueRock Ventures LLC ("Client")
+Order Date: January 10, 2025
+
+--- COMMERCIAL TERMS ---
+
+Product: Apex Analytics Platform - Enterprise Tier
+Contract Start: February 1, 2025
+Contract End: January 31, 2027 (24 month term)
+
+Pricing:
+  Year 1: $7,500/month ($90,000 annually)
+  Year 2: $8,250/month ($99,000 annually) - includes 10% uplift
+  Total Contract Value: $189,000
+
+Invoicing: Monthly, net 30 days from invoice date.
+
+Late payment: 1.5% per month on overdue amounts after 10 day grace period.
+
+--- USAGE AND OVERAGE ---
+
+Platform includes:
+- Up to 15 user seats (additional seats $250/seat/mo)
+- 1TB data storage (overage: $50/TB/month)
+- Standard support (upgrade to Premium Support: $1,500/month additional)
+
+Transaction-based add-on (if applicable):
+  First 100k transactions: included
+  100,001 to 500,000: $0.01 each
+  500,001 and above: negotiate with account team
+
+--- RENEWAL AND CANCELLATION ---
+
+This order auto-renews for 12-month periods after the initial 24-month term.
+Client must provide 60 days written notice to prevent renewal.
+Early termination within the first 12 months: 75% of remaining Year 1 fees due.
+Early termination in months 13-24: 50% of remaining Year 2 fees due.
+
+--- NOTES ---
+
+* Pricing locked for duration of initial term. No mid-term increases.
+* Client has right of first refusal on any new product features at current contract pricing
+  for 90 days post-launch.
+* Travel and expenses for on-site visits billed separately at cost, pre-approved by Client.
+* This order is subject to Provider's standard Master Services Agreement dated Jan 1, 2024.
+
+Signed:
+
+Provider: __________________________    Client: __________________________
+          Mark Torres, VP Sales                   Aisha Patel, COO
+          January 10, 2025                        January 10, 2025

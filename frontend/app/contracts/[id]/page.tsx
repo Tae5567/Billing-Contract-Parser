@@ -1,5 +1,3 @@
-//app/contracts/[id]/page.tsx
-
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -12,7 +10,7 @@ import {
 } from "lucide-react";
 import clsx from "clsx";
 
-// ── Confidence badge ────────────────────────────────────────────────────────
+// Confidence badge
 function ConfidenceBadge({ score }: { score: number }) {
   const pct = Math.round(score * 100);
   const isHigh   = score >= 0.9;
@@ -33,7 +31,7 @@ function ConfidenceBadge({ score }: { score: number }) {
   );
 }
 
-// ── Single editable field card ──────────────────────────────────────────────
+// Single editable field card
 function FieldCard({
   label, value, confidence, sourceText, fieldPath, onSave,
 }: {
